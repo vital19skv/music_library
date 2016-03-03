@@ -1,0 +1,113 @@
+﻿insert into Type values (0,'B','Bbb');
+insert into Type values (1,'B','Bbb');
+insert into Type values (2,'B','Bbb');
+insert into Type values (3,'B','Bbb');
+insert into Type values (4,'B','Bbb');
+insert into Type values (5,'B','Bbb');
+insert into Type values (6,'B','Bbb');
+insert into Type values (7,'B','Bbb');
+insert into Type values (8,'B','Bbb');
+insert into Type values (9,'B','Bbb');
+
+insert into Groups values (0,'Metallica','Los Angeles','01.01.1981');
+insert into Groups values (1,'Metallica','Los Angeles','01.01.1981');
+insert into Groups values (2,'Metallica','Los Angeles','01.01.1981');
+insert into Groups values (3,'Metallica','Los Angeles','01.01.1981');
+insert into Groups values (4,'Metallica','Los Angeles','01.01.1981');
+insert into Groups values (5,'Metallica','Los Angeles','01.01.1981');
+insert into Groups values (6,'Metallica','Los Angeles','01.01.1981');
+insert into Groups values (7,'Metallica','Los Angeles','01.01.1981');
+insert into Groups values (8,'Metallica','Los Angeles','01.01.1981');
+insert into Groups values (9,'Metallica','Los Angeles','01.01.1981');
+
+insert into Artist values (0,9,'Kirk Hammet','Los Angeles','electro-guitar');
+insert into Artist values (1,8,'Kirk Hammet','Los Angeles','electro-guitar');
+insert into Artist values (2,7,'Kirk Hammet','Los Angeles','electro-guitar');
+insert into Artist values (3,6,'Kirk Hammet','Los Angeles','electro-guitar');
+insert into Artist values (4,5,'Kirk Hammet','Los Angeles','electro-guitar');
+insert into Artist values (5,4,'Kirk Hammet','Los Angeles','electro-guitar');
+insert into Artist values (6,3,'Kirk Hammet','Los Angeles','electro-guitar');
+insert into Artist values (7,2,'Kirk Hammet','Los Angeles','electro-guitar');
+insert into Artist values (8,1,'Kirk Hammet','Los Angeles','electro-guitar');
+insert into Artist values (9,0,'Kirk Hammet','Los Angeles','electro-guitar');
+
+insert into Album values (0,'Aaa',8,'James','Heavy metal','01.05.1984',8,0);
+insert into Album values (1,'Aaa',2,'James','Heavy metal','01.05.1984',9,1);
+insert into Album values (2,'Aaa',4,'James','Heavy metall','01.05.1984',7,2);
+insert into Album values (3,'Aaa',6,'James','Heavy metall','01.05.1984',6,3);
+insert into Album values (4,'Aaa',9,'James','Heavy metall','01.05.1984',5,4);
+insert into Album values (5,'Aaa',5,'James','Heavy metall','01.05.1984',4,5);
+insert into Album values (6,'Aaa',7,'James','Heavy metall','01.05.1984',3,6);
+insert into Album values (7,'Aaa',3,'James','Heavy metall','01.05.1984',2,7);
+insert into Album values (8,'Aaa',0,'James','Heavy metall','01.05.1984',1,8);
+insert into Album values (9,'Aaa',1,'James','Heavy metall','01.05.1984',0,9);
+
+insert into Disc values (0,9,'Golden Hits','01.01.1999','Lars Urlisch');
+insert into Disc values (1,8,'Golden Hits','01.01.1999','Lars Urlisch');
+insert into Disc values (2,7,'Golden Hits','01.01.1999','Lars Urlisch');
+insert into Disc values (3,6,'Golden Hits','01.01.1999','Lars Urlisch');
+insert into Disc values (4,5,'Golden Hits','01.01.1999','Lars Urlisch');
+insert into Disc values (5,4,'Golden Hits','01.01.1999','Lars Urlisch');
+insert into Disc values (6,3,'Golden Hits','01.01.1999','Lars Urlisch');
+insert into Disc values (7,2,'Golden Hits','01.01.1999','Lars Urlisch');
+insert into Disc values (8,1,'Golden Hits','01.01.1999','Lars Urlisch');
+insert into Disc values (9,0,'Golden Hits','01.01.1999','Lars Urlisch');
+
+insert into Song values (0,'fade to black',9,'Live is seemes to fade away, drifting further every day',9,0);
+insert into Song values (1,'fade to black',8,'Live is seemes to fade away, drifting further every day',8,1);
+insert into Song values (2,'fade to black',7,'Live is seemes to fade away, drifting further every day',7,2);
+insert into Song values (3,'fade to black',6,'Live is seemes to fade away, drifting further every day',6,3);
+insert into Song values (4,'fade to black',5,'Live is seemes to fade away, drifting further every day',5,4);
+insert into Song values (5,'fade to black',4,'Live is seemes to fade away, drifting further every day',4,5);
+insert into Song values (6,'fade to black',3,'Live is seemes to fade away, drifting further every day',3,6);
+insert into Song values (7,'fade to black',2,'Live is seemes to fade away, drifting further every day',2,7);
+insert into Song values (8,'fade to black',1,'Live is seemes to fade away, drifting further every day',1,8);
+insert into Song values (9,'fade to black',0,'Live is seemes to fade away, drifting further every day',0,9);
+
+insert into Album_song values (0,9);
+insert into Album_song values (1,8);
+insert into Album_song values (2,7);
+insert into Album_song values (3,6);
+insert into Album_song values (4,5);
+insert into Album_song values (5,4);
+insert into Album_song values (6,3);
+insert into Album_song values (7,2);
+insert into Album_song values (8,1);
+insert into Album_song values (9,0);
+
+insert into Fest values (0,'Fest1','Moscow');
+insert into Fest values (1,'Fest1','Saint-Petersburg');
+insert into Fest values (2,'Fest1','Kazan');
+insert into Fest values (3,'Fest1','Bugulma');
+insert into Fest values (4,'Fest1','Bryansk');
+insert into Fest values (5,'Fest1','Surgut');
+insert into Fest values (6,'Fest1','Pscow');
+insert into Fest values (7,'Fest1','Rostov');
+insert into Fest values (8,'Fest1','Volgograd');
+insert into Fest values (9,'Fest1','Vladivostok');
+
+
+insert into Fest_albums values (0,9);
+insert into Fest_albums values (1,8);
+insert into Fest_albums values (2,7);
+insert into Fest_albums values (3,6);
+insert into Fest_albums values (4,5);
+insert into Fest_albums values (5,4);
+insert into Fest_albums values (6,3);
+insert into Fest_albums values (7,2);
+insert into Fest_albums values (8,1);
+insert into Fest_albums values (9,0);
+
+insert into Fest_song values (0,9);
+insert into Fest_song values (1,8);
+insert into Fest_song values (2,7);
+insert into Fest_song values (3,6);
+insert into Fest_song values (4,5);
+insert into Fest_song values (5,4);
+insert into Fest_song values (6,3);
+insert into Fest_song values (7,2);
+insert into Fest_song values (8,1);
+insert into Fest_song values (9,0);
+
+
+
