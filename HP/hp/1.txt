@@ -1,0 +1,13 @@
+begin
+    mnt_ttl = datediff(MONTH, date_st, date_end);
+
+        for select first 5 author_id, COUNT(id) as amount from song where cr_date
+        between :date_st and :date_end group by author_id ORDER by amount desc into
+        :art_id, :sng_amount do
+            begin
+                perfomance = CAST(sng_amount AS float) / CAST(mnt_ttl AS float);
+                suspend;
+            end
+
+
+end
