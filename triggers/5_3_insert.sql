@@ -1,0 +1,2 @@
+INSERT INTO ALBUM_SONG values (4543, 8912)
+
